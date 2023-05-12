@@ -8,4 +8,4 @@
 Run command "yarn dev" to start the application.
 
 ## Deployed Link - 
-https://atworld.netlify.app
+https://tusers.netlify.app/
