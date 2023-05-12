@@ -6,7 +6,7 @@ const UserDetail = ({user}) => {
             <div className="py-2">
                 <Image priority className="rounded-full" src={user.avatar} width={100} height={100} loader={({ src, width, quality }) => {
                 return `${src}?w=${width}&q=${quality || 75}`
-            }}/>
+            }} alt="dp"/>
                 <h3 className="text-center text-xl font-bold">@{user.profile.username}</h3>
             </div>
             <p className="w-[90%] m-auto border-2 bg-slate-200 border-gray-400 px-3 rounded-md py-2">{user.Bio}</p>
