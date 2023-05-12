@@ -79,7 +79,7 @@ export default function Home() {
       <main className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-4 justify-between m-auto w-[80vw]'>
         <div className='md:w-1/2'>
           <h3 className='py-3 mb-4 text-lg rounded-md text-center uppercase bg-blue-200'>Users List</h3>
-          <div className='h-[80vh] overflow-y-auto scrollbar'>
+          <div className='h-[90vh] overflow-y-auto scrollbar'>
             {/* <Card user={{avatar:'/dp.png',name:"Prashant Singh"}}/> */}
             {users.length ?
               users.map((user, index) => {
