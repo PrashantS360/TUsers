@@ -13,7 +13,6 @@ export default function Home() {
   const getUsers = async () => {
     setSpinner(true);
     let host = process.env.NEXT_PUBLIC_HOST;
-    console.log(host);
     if(!host){
       host = "http://localhost:3000"
     }
@@ -76,7 +75,7 @@ export default function Home() {
           }
         `}
       </style>
-      <main className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-4 justify-between m-auto w-[80vw]'>
+      <main className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-6 justify-between m-auto w-[80vw]'>
         <div className='md:w-1/2'>
           <h3 className='py-3 mb-4 text-lg rounded-md text-center uppercase bg-blue-200'>Users List</h3>
           <div className='h-[90vh] overflow-y-auto scrollbar'>
